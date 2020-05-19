@@ -1,0 +1,98 @@
+body {
+    font-family: 'Gotham', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.header {
+    text-align: center;
+}
+
+.heading-primary {
+    margin-top: .5rem;
+    font-size: 3.5rem;
+    font-family: 'Futura BLD BT';
+    font-weight: bold;
+    letter-spacing: .2rem;
+
+    // animation-name: moveInRight;
+    // animation-duration: 1s;
+}
+
+.heading-secondary {
+    font-size: 4rem;
+    line-height: 1.7;
+    font-family: 'Futura BLD BT';
+    font-weight: bold;
+    letter-spacing: .2rem;
+}
+
+.heading-tertiary {
+    font-size: 2.5rem;
+    font-family: 'Futura BLD BT';
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+.paragraph {
+    font-size: $default-font-size;
+    margin: 0 auto;
+    width: 80%;
+    line-height: 1.7;
+
+    &:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+}
+
+.team-member-text {
+    margin-top: 2.5rem;
+    font-size: 1.7rem;
+    transform: translateY(0);
+    transition: all .3s;
+}
+
+.project-title {
+    font-size: 1.6rem;
+}
+
+.project-info {
+    font-size: 1.4rem;
+}
+
+
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    text-shadow: none;
+}
+
+
+
+
+///:::::: FONTS ::::::///
+
+
+
+@font-face {
+    font-family: 'Futura BLD BT';
+    src: url('../fonts/Futura-Heavy.woff2') format('woff2'),
+        url('../fonts/Futura-Heavy.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura LT BT';
+    src: url('../fonts/Futura-Light.woff2') format('woff2'),
+        url('../fonts/Futura-Light.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Book.woff2') format('woff2'),
+        url('../fonts/Gotham-Book.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "digitas-portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass resources/sass/main.scss resources/css/style.css -w"
+  },
+  "author": "Fernando Vargas S",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0",
+    "shufflejs": "^5.2.1"
+  }
+}

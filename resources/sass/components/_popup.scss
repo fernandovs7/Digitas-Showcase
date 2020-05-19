@@ -1,0 +1,68 @@
+
+
+.container {
+    background-color: transparent;
+}
+
+
+.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.844);
+    padding: 0 20px 20px 20px;
+}
+
+.hide {
+    opacity: 0;
+    visibility: invisible;
+}
+
+.view-box {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 12px;
+    a {
+        color: #fff !important;
+    }
+}
+
+.close {
+    color: #fff;
+    font-size: 2.6rem;
+    text-shadow: none;
+    opacity: 1;
+}
+
+.close:hover {
+    color: #fff;
+    opacity: 1.5;
+}
+
+.modal-body {
+    height: 900px;
+}
+
+.modal-sm {
+    max-width: 400px;
+}
+
+.fa-desktop {
+    margin-right: 10px;
+}
+
+.fa-mobile-alt {
+    margin-left: 10px;
+}
+
+.fa-times-circle {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
